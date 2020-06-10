@@ -18,6 +18,9 @@ public class Main {
 
     //System.out.println(tigr1.rname());
 
+    //CTiger tigr2 = new CTiger("Kostik");
+    //tigr2.food(500);
+
 
     }
 }
