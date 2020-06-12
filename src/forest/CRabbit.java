@@ -1,26 +1,26 @@
 package forest;
 
-public class CRabbit {
+public class CRabbit extends CAnimal{
     private int food;
     private CColor color;
-    private CCoord coord;
+    //private CCoord coord;
 
 
     public CRabbit() {
         this.food = 0;
         CColor rabbitColor = CColor.Invalid;
         this.color = rabbitColor.getRandomColor();
-        this.coord = new CCoord();
+    //    this.coord = new CCoord();
     }
 
-    public CCoord coord(){
-        return this.coord;
-    }
+    //public CCoord coord(){
+    //    return this.coord;
+    //}
 
-    public void setCoord(CCoord rabCoord){
-        this.coord().x = rabCoord.x;
-        this.coord().y = rabCoord.y;
-    }
+    //public void setCoord(CCoord rabCoord){
+    //    this.coord().x = rabCoord.x;
+    //    this.coord().y = rabCoord.y;
+    //}
 
     public void food(int food) {
         this.food += food;

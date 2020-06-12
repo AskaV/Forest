@@ -1,14 +1,14 @@
 package forest;
 
-public class CTiger {
+public class CTiger extends CAnimal {
     private int food;
     private  String name;
-    private CCoord coord;
+    //private CCoord coord;
 
     public CTiger(String name){
         this.name = name;
         this.food = 0;
-        this.coord = new CCoord();
+    //    this.coord = new CCoord();
     }
 
     public void food (int food) {
@@ -23,9 +23,9 @@ public class CTiger {
 
    // public void twoDayGo(){ if (this.food=0) ;}
 
-    public CCoord coord(){
-        return this.coord;
-    }
+    //public CCoord coord(){
+    //    return this.coord;
+    //}
 
     public void comp(float par){
         System.out.print((((float)this.food/100< par) ?"On ":"Ya ") + "starshe");
