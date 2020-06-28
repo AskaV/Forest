@@ -10,7 +10,7 @@ public class Main {
 
        // FileWriter file= new FileWriter("log11.txt");
         //file.write("hello");
-        //file.close();
+        //file.close();р
 
 
 //       for (int i = 0; i<10000;i++) {
