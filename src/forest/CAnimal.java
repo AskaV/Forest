@@ -17,12 +17,4 @@ public class CAnimal {
         this.coord().y = rabCoord.y;
     }
 
-
-
-
-
-
-
-
-
 }

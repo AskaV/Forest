@@ -8,7 +8,6 @@ public class CTiger extends CAnimal {
     public CTiger(String name){
         this.name = name;
         this.food = 0;
-    //    this.coord = new CCoord();
     }
 
     public void food (int food) {
@@ -20,12 +19,6 @@ public class CTiger extends CAnimal {
     }
 
     public  void subtractionOfFood(){this.food-=50; if(this.food<0) this.food=0;}
-
-   // public void twoDayGo(){ if (this.food=0) ;}
-
-    //public CCoord coord(){
-    //    return this.coord;
-    //}
 
     public void comp(float par){
         System.out.print((((float)this.food/100< par) ?"On ":"Ya ") + "starshe");
