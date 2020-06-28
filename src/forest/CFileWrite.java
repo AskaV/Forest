@@ -5,7 +5,7 @@ import java.io.*;
 public class CFileWrite {
 
     public CFileWrite() throws IOException {
-        newFile("textfile.txt");
+        //newFile("textfile.txt");
     }
 
     public void WriteFile(String tfName, String text) throws IOException {

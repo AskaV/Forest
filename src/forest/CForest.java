@@ -1,7 +1,6 @@
 package forest;
 
 import java.io.IOException;
-import java.io.FileWriter;
 import java.util.LinkedList;
 
 public class CForest {
