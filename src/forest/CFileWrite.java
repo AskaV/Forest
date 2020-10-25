@@ -2,6 +2,8 @@ package forest;
 //import java.io.File;
 import java.io.*;
 
+
+
 public class CFileWrite {
 
     public CFileWrite() throws IOException {
@@ -17,7 +19,7 @@ public class CFileWrite {
 
     public void newFile(String tfName) throws IOException {//throws Exception
 
-        File f1 = new File("E:\\Git\\Forest\\",tfName);
+        File f1 = new File("E:\\Git\\Forest\\log\\",tfName);
 
         if (f1.exists()) {
             f1.delete();

@@ -1,13 +1,18 @@
 package forest;
 
+import java.io.IOException;
+
 public class CTiger extends CAnimal {
     private int food;
     private  String name;
-    //private CCoord coord;
+    private CFileWrite fileSDay;
 
-    public CTiger(String name){
+
+    public CTiger(String name) throws IOException {
         this.name = name;
         this.food = 0;
+        this.fileSDay= new CFileWrite();
+
     }
 
     public void food (int food) {
@@ -32,4 +37,11 @@ public class CTiger extends CAnimal {
         System.out.println("Tiger name is " + this.name+", food = " + this.food+", Age = " + age());
 
     }
+    public void tFileWr(int Day) throws IOException {
+        fileSDay.WriteFile("E:\\Git\\Forest\\log\\dayLog.txt",(this.name)+" ");// сохраняем имя тигра
+
+        fileSDay.WriteFile("E:\\Git\\Forest\\log\\dayLog.txt",(Integer.toString(this.food))+"; ");// сохраняем еду тигра
+    }
+
+
 }

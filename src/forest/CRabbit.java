@@ -1,15 +1,20 @@
 package forest;
 
+import java.io.IOException;
+
 public class CRabbit extends CAnimal{
     private int food;
     private CColor color;
     //private CCoord coord;
+    private CFileWrite fileSDay;
 
 
-    public CRabbit() {
+    public CRabbit() throws IOException {
         this.food = 0;
         CColor rabbitColor = CColor.Invalid;
         this.color = rabbitColor.getRandomColor();
+        this.fileSDay= new CFileWrite();
+
     }
 
     public void food(int food) {
@@ -34,4 +39,8 @@ public class CRabbit extends CAnimal{
         System.out.printf("%12d", this.food);
     }
 
+    public void rFileWr(int Day) throws IOException {
+        fileSDay.WriteFile("E:\\Git\\Forest\\log\\dayLog.txt", String.valueOf((this.color))+" ");// сохраняем имя кролика
+        fileSDay.WriteFile("E:\\Git\\Forest\\log\\dayLog.txt",(Integer.toString(this.food))+"; ");// сохраняем еду кролика
+    }
 }

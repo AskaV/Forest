@@ -2,6 +2,8 @@ package forest;
 
 import java.io.IOException;
 import java.util.LinkedList;
+import java.nio.file.*;//Path, Paths;
+import java.util.Scanner;
 
 public class CForest {
     LinkedList<CTiger> tigers;//инициализируем пустой
@@ -11,6 +13,9 @@ public class CForest {
     CFileWrite fileLog;
     CFileWrite fileLog1;
     CFileWrite fileLog2;
+    CFileWrite dayLog;
+
+    int saveDay = 15; //день который мы будем сохранять в файл
 
     int FoodInOneSellMax = 15;     // Сколько еды генерируется в одной ячейке в день
     int FoodInOneSellMin = 10;
@@ -21,6 +26,8 @@ public class CForest {
 
     int oX = 4;                 //длинна поля по х
     int oY = 4;                 //длинна поля по y
+
+    int saveDayPointAct = 15;        //номер дня который мы будем сохранять в файл
 
 
     int[][] food = new int[oX][oY];
@@ -40,13 +47,15 @@ public class CForest {
         addTigra("Kostik");
 
         this.fileLog= new CFileWrite();
-        this.fileLog.newFile("log1.txt");
+        this.fileLog.newFile("log1_Old.txt");
         this.fileLog1= new CFileWrite();
-        this.fileLog1. newFile("log2.txt");
+        this.fileLog1.newFile("log2_Old.txt");
         this.fileLog2= new CFileWrite();
-        this.fileLog2. newFile("log3.txt");
+        this.fileLog2.newFile("log3_Old.txt");
+        this.dayLog= new CFileWrite();
+        this.dayLog.newFile("dayLog.txt");
 
-        return monthStage(monthDays);                                                                           //зачем тут ретурн, а не то что выше на 1 строчку???????
+        return monthStage(monthDays);
     }
 
     public int monthStage(int monthDays) throws IOException { // определение этапа месяца
@@ -61,7 +70,7 @@ public class CForest {
             }
             for (int i = 1; i <= tigerStage; i++)//2 этапа хождения тигров за 1 день
             {
-                log("\n Day " + dayCount + " xod " + i + ": ");
+                log1("\n Day " + dayCount + " xod " + i + ": ");
                 log2("\n Day " + dayCount + " xod " + i + ": ");
                 for (CTiger tiger : tigers) {
                     dayTigerMove(tiger, false);
@@ -69,7 +78,7 @@ public class CForest {
             }
             for (CTiger tiger : tigers) {
                 if (tiger.rFood() == 0) {
-                    log("\n \tAditional move of tiger " + tiger.rname() + "; Food before move = " + tiger.rFood() + ". ");
+                    log1("\n \tAditional move of tiger " + tiger.rname() + "; Food before move = " + tiger.rFood() + ". ");
                     dayTigerMove(tiger, true);
                 }
             }
@@ -80,20 +89,20 @@ public class CForest {
                 tiger.subtractionOfFood();
             }
 
-            log("\n Rab before go\n");
+            log1("\n Rab before go\n");
             RabbitShowInfo();
             rabbitGo();
-            log("\n Rab died with 0 food\n");
+            log1("\n Rab died with 0 food\n");
             RabbitShowInfo();
 
             for (CRabbit rabbit : rabbits) {     //проверяем кроликов на еду
                 rabbit.subtractionOfFood();
             }
 
-            log("\n\n Rab -20 food \n");
+            log1("\n\n Rab -20 food \n");
             RabbitShowInfo();
             rabbitSelection(); //в конце дня добавляем новых кролей, только для пар у кого еды не 0
-            log("\n add new reb\n");
+            log1("\n add new reb\n");
             RabbitShowInfo();
             lesShowInfoNight(dayCount);
 
@@ -102,9 +111,57 @@ public class CForest {
                 log2 ("tiger died, stop program");
                 return 1;
             }
+            saveDayToFile(dayCount);
+            //loadDayFromFile();
+
         }
         printFruits();
         return 0;
+    }
+
+    public void saveDayToFile(int dayCount) throws IOException {
+        if (dayCount == saveDayPointAct){
+
+            //строка 1 - №дня__к-во тигров__к-во кроликов
+            dayLog.WriteFile("E:\\Git\\Forest\\log\\dayLog.txt",(Integer.toString(dayCount)+" "+Integer.toString(this.tigers.size())+" "+Integer.toString(this.rabbits.size())+" \n"));
+
+
+            for (CTiger tiger : tigers) {                 //Сохраняем информацию в файл о тиграх
+                tiger.tFileWr(saveDayPointAct);
+            }
+            dayLog.WriteFile("E:\\Git\\Forest\\log\\dayLog.txt",("\n"));
+
+            for (CRabbit rabbit : rabbits) {                 //Сохраняем информацию в файл о кроликах
+                rabbit.rFileWr(saveDayPointAct);
+            }
+
+            dayLog.WriteFile("E:\\Git\\Forest\\log\\dayLog.txt",("\n"));
+
+            // сохраняем размерность леса (в теории если надо)
+            //сохраняем текущюю еду в лесу на конец дня
+            for (int i = 0; i < oX; i++) {
+                for (int j = 0; j < oY; j++) {
+                    //this.food[i][j] = (int) (Math.random() * ((this.FoodInOneSellMax - FoodInOneSellMin) + 1)) + FoodInOneSellMin; //генерация от 20 до FoodInOneSell(40)
+                    //this.dayGenFruits[dayOfMonth][i][j] = this.food[i][j];//запись еды в трехмерный массив в лесу с сохранением дня
+                }
+            }
+
+
+        }
+    }
+
+    public void loadDayFromFile()throws IOException {
+        Path pathP = Paths.get("E:\\Git\\Forest\\dayLog.txt");
+        Scanner scanN = new Scanner(pathP).useDelimiter("\\s*");//нуждно обработать что если в файле не будет пробела то вывалится ексепшн
+
+        String dayCount = scanN.next();
+        log(dayCount);
+        //читаем построчно
+        //while(scanN.hasNext()){
+        //String line = scanN.nextLine();
+        //log(line);
+        //}
+        scanN.close ();
     }
 
     public void initFood(int dayOfMonth) {
@@ -224,7 +281,7 @@ public class CForest {
         }
     }
 
-    public void rabbitSelection() { //в конце дня добавляем новых кролей, только для пар у кого еды не 0
+    public void rabbitSelection() throws IOException { //в конце дня добавляем новых кролей, только для пар у кого еды не 0
 
         int rabitSize = 0;
         for (CRabbit rabbit : rabbits) {  //узнаем количество кролей с едой не 0
@@ -341,15 +398,15 @@ public class CForest {
     }
 
     // ************************************************Разное по мелочи************************************************
-    public void addTigra(String name) {
+    public void addTigra(String name) throws IOException {
         this.tigers.add(new CTiger(name));
     }
 
-    public void addRabbit() {
+    public void addRabbit() throws IOException {
         this.rabbits.add(new CRabbit());
     }
 
-    public void addRabbitFirst() {
+    public void addRabbitFirst() throws IOException {
         this.rabbits.addFirst(new CRabbit());
     }
 
@@ -365,24 +422,24 @@ public class CForest {
     }
 
     public void lesShowInfo(int i) throws IOException {
-        log(" \n \n Day " + i + ". Food in forest = " + Integer.toString(getForestFood()));
-        log(";  Food in tigers : ");
+        log1(" \n \n Day " + i + ". Food in forest = " + Integer.toString(getForestFood()));
+        log1(";  Food in tigers : ");
         PrintTigerFood();
-        log("**************");
-        log(" Food generated for rabbits:  ");
+        log1("**************");
+        log1(" Food generated for rabbits:  ");
         FoodShowInfovStroky();
-        log("\n");
+        log1("\n");
         //напечатать в конце этапа список кроликов
         //печатать каждый этап сколько  сьел какой тигр
     }
 
     public void lesShowInfoNight(int i) throws IOException {
-        log(" \n \n Night " + i + ". Food in forest = " + Integer.toString(getForestFood()));
-        log(";  Food in tigers : ");
+        log1(" \n \n Night " + i + ". Food in forest = " + Integer.toString(getForestFood()));
+        log1(";  Food in tigers : ");
         PrintTigerFood();
         //log("\n");
-        log("**************");
-        log(" Food of the end of the day:  ");
+        log1("**************");
+        log1(" Food of the end of the day:  ");
         FoodShowInfovStroky();
         //напечатать в конце этапа список кроликов
         //печатать каждый этап сколько  сьел какой тигр
@@ -390,17 +447,17 @@ public class CForest {
 
     public void PrintTigerFood() throws IOException {
         for (CTiger tiger : tigers) {
-            log(tiger.rname() + " - " + tiger.rFood() + ", ");
+            log1(tiger.rname() + " - " + tiger.rFood() + ", ");
         }
     }
 
     public void FoodShowInfovStroky() throws IOException {
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
-                log(" " + this.food[i][j] + " ");
+                log1(" " + this.food[i][j] + " ");
             }
         }
-        log("\n");
+        log1("\n");
     }
 
     public void FoodShowInfo() throws IOException {
@@ -408,50 +465,53 @@ public class CForest {
         for (int i = 0; i < 4; i++) {
 
             for (int j = 0; j < 4; j++) {
-                log(" " + this.food[i][j] + " ");
+                log1(" " + this.food[i][j] + " ");
             }
-            log("\n");
+            log1("\n");
         }
     }
 
     public void RabbitShowInfo() throws IOException {
 
-        log("| Rabbit name |");
+        log1("| Rabbit name |");
         for (CRabbit rabbit : this.rabbits) {
-            log(rabbit.rColor() + "|"); //для красивой печати вместо этого печатать pColor();
-            log("|");
+            log1(rabbit.rColor() + "|"); //для красивой печати вместо этого печатать pColor();
+            log1("|");
         }
-        log("\n");
-        log("| Rabbit food |");
+        log1("\n");
+        log1("| Rabbit food |");
         for (CRabbit rabbit : this.rabbits) {
-            log(Integer.toString(rabbit.rFood()) + "|"); //для красивой печати вместо этого печатать pFood();
+            log1(Integer.toString(rabbit.rFood()) + "|"); //для красивой печати вместо этого печатать pFood();
 
         }
         //log("\n" + "\n");
     }
 
     public void lesShowInfof() throws IOException { //просто как пример записи
-        log("\nInitial food in animals:");
+        log1("\nInitial food in animals:");
         for (CTiger tiger : tigers) {    //for (int i=0; i<this.tiger.size();i++){
             tiger.tInfo();  //this.tiger.get(i).tInfo();
         }
     }
 
     public void log(String msg) throws IOException { // версия 1 печати информации для леса(тут инфа по ходам тигров, кроликов и еды в лесу)
-        fileLog.WriteFile("E:\\Git\\Forest\\log1.txt",msg);
+        System.out.print(msg);
+    }
+
+    public void log1(String msg) throws IOException { // версия 1 печати информации для леса(тут инфа по ходам тигров, кроликов и еды в лесу)
+        fileLog.WriteFile("E:\\Git\\Forest\\log\\log1_Old.txt",msg);
         //System.out.print(msg);
     }
 
     public void log2(String msg)  throws IOException { // версия 2 печати информации для леса, тут проверка доп хода тигров
-        fileLog1.WriteFile("E:\\Git\\Forest\\log2.txt",msg);
+        fileLog1.WriteFile("E:\\Git\\Forest\\log\\log2_Old.txt",msg);
 
         //System.out.print(msg);
     }
 
     public void log3(String msg) throws IOException { // печать генерируемых фруктов
-        fileLog2.WriteFile("E:\\Git\\Forest\\log3.txt",msg);
+        fileLog2.WriteFile("E:\\Git\\Forest\\log\\log3_Old.txt",msg);
         //System.out.print("\t" + msg);
     }
-
 
 }

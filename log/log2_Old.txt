@@ -1,0 +1,69 @@
+
+ Day 1 xod 1: 
+ Day 2 xod 1: 
+ Day 3 xod 1: 
+ Day 4 xod 1: 
+ Day 5 xod 1: 
+ Day 6 xod 1: 
+ Day 7 xod 1: 
+ Day 8 xod 1:  Funk tigraGO - Tiger Alena has food 0;
+ Start loop search: tiger Alena has coordinats x = 2, y = 1; 
+
+ v cikle  x=1, y =0
+ Rabbits on map before tiger around food Search
+ 11  14  0  10 
+ 32  33  31  14 
+ 0  0  0  62 
+ 25  22  11  0 
+
+|| Tiger find _Brown_ rabbit with food 32  || tiger food after eateng rabbit= 32
+ Day 9 xod 1: 
+ Day 10 xod 1: 
+ Day 11 xod 1: 
+ Day 12 xod 1: 
+ Day 13 xod 1: 
+ Day 14 xod 1: 
+ Day 15 xod 1: 
+ Day 16 xod 1: 
+ Day 17 xod 1: 
+ Day 18 xod 1: 
+ Day 19 xod 1: 
+ Day 20 xod 1: 
+ Day 21 xod 1: 
+ Day 22 xod 1: 
+ Day 23 xod 1: 
+ Day 24 xod 1: 
+ Day 25 xod 1: 
+ Day 26 xod 1:  Funk tigraGO - Tiger Alena has food 0;
+ Start loop search: tiger Alena has coordinats x = 2, y = 2; 
+
+ v cikle  x=1, y =1
+ Rabbits on map before tiger around food Search
+ 15  0  14  27 
+ 12  0  26  11 
+ 32  30  0  15 
+ 15  14  20  0 
+
+
+ v cikle  x=1, y =2
+ Rabbits on map before tiger around food Search
+ 15  0  14  27 
+ 12  0  26  11 
+ 32  30  0  15 
+ 15  14  20  0 
+
+|| Tiger find _Ginger_ rabbit with food 26  || tiger food after eateng rabbit= 26 Funk tigraGO - Tiger Kostik has food 0;
+ Start loop search: tiger Kostik has coordinats x = 1, y = 1; 
+
+ v cikle  x=0, y =0
+ Rabbits on map before tiger around food Search
+ 15  0  14  27 
+ 12  0  0  11 
+ 32  30  0  15 
+ 15  14  20  0 
+
+|| Tiger find _Blue_ rabbit with food 15  || tiger food after eateng rabbit= 15
+ Day 27 xod 1: 
+ Day 28 xod 1: 
+ Day 29 xod 1: 
+ Day 30 xod 1: 
