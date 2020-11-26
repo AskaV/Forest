@@ -1,3 +1,4 @@
-15 2 12 
+15 2 13 ;
 Alena 0; Kostik 0; 
-Peach 0; Grey 0; Brown 4; Peach 8; Ginger 0; BlackWhite 0; Tan 0; Black 0; Grey 9; Ginger 0; Tan 7; Tan 14; 
+Ginger 0; Tan 0; Blue 0; BlackWhite 0; Blue 0; Blue 11; Tan 0; Tan 0; Peach 0; Tan 7; Grey 21; BlackWhite 0; Ginger 11; 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 

@@ -9,10 +9,16 @@ public class CRabbit extends CAnimal{
     private CFileWrite fileSDay;
 
 
-    public CRabbit() throws IOException {
+    public CRabbit(String name) throws IOException {
         this.food = 0;
         CColor rabbitColor = CColor.Invalid;
-        this.color = rabbitColor.getRandomColor();
+        if (name == "rand") {
+            this.color = rabbitColor.getRandomColor();
+        }
+        else {
+            this.color = CColor.valueOf(name);
+        }
+
         this.fileSDay= new CFileWrite();
 
     }

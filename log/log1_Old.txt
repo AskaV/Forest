@@ -1,680 +1,361 @@
  
  
- Day 1. Food in forest = 211;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   15  13  11  14  14  10  15  10  15  14  15  13  12  12  13  15 
+ Day 15. Food in forest = 192;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   13  10  10  11  11  12  12  12  14  11  10  15  15  12  11  13 
 
-| Rabbit name |Ginger||Brown||Grey||Peach||BlackWhite||Tan||Peach||Tan||
-| Rabbit food |27|29|27|22|15|15|27|28|
- Day 1 xod 1: Alena - 0, Kostik - 15, 
- 	Aditional move of tiger Alena; Food before move = 0. 
+| Rabbit name |Blue||Tan||BlackWhite||Blue||Blue||Blue||Tan||Tan||Peach||Tan||Grey||BlackWhite||Ginger||
+| Rabbit food |15|15|18|10|11|31|12|11|11|27|41|10|31|
+ Day 15 xod 1: Alena - 15, Kostik - 0, 
+ 	Aditional move of tiger Kostik; Food before move = 0. Alena - 15, Kostik - 10, 
  Rab before go
-| Rabbit name |Ginger||Brown||Grey||Peach||Tan||Peach||Tan||
-| Rabbit food |27|29|27|22|15|27|28|
+| Rabbit name |Blue||BlackWhite||Blue||Blue||Tan||Tan||Peach||Tan||Grey||BlackWhite||Ginger||
+| Rabbit food |15|18|11|31|12|11|11|27|41|10|31|
  Rab died with 0 food
-| Rabbit name |Ginger||Brown||Grey||Peach||Tan||Peach||Tan||
-| Rabbit food |27|29|27|22|15|27|28|
+| Rabbit name |Blue||BlackWhite||Blue||Blue||Tan||Tan||Peach||Tan||Grey||BlackWhite||Ginger||
+| Rabbit food |15|18|11|31|12|11|11|27|41|10|31|
 
  Rab -20 food 
-| Rabbit name |Ginger||Brown||Grey||Peach||Tan||Peach||Tan||
-| Rabbit food |7|9|7|2|0|7|8|
+| Rabbit name |Blue||BlackWhite||Blue||Blue||Tan||Tan||Peach||Tan||Grey||BlackWhite||Ginger||
+| Rabbit food |0|0|0|11|0|0|0|7|21|0|11|
  add new reb
-| Rabbit name |Brown||Brown||Tan||Ginger||Brown||Grey||Peach||Tan||Peach||Tan||
-| Rabbit food |0|0|0|7|9|7|2|0|7|8| 
- 
- Night 1. Food in forest = 21;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  11  0  0  10  0  0  0  0  0  0  0  0  0  0 
- 
- 
- Day 2. Food in forest = 201;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   11  12  14  14  12  15  13  12  12  10  12  13  15  12  14  10 
-
-| Rabbit name |Brown||Brown||Tan||Ginger||Brown||Grey||Peach||Tan||Peach||Tan||
-| Rabbit food |26|24|11|21|19|43|16|15|31|35|
- Day 2 xod 1: Alena - 16, Kostik - 0, 
- 	Aditional move of tiger Kostik; Food before move = 0. Alena - 16, Kostik - 31, 
- Rab before go
-| Rabbit name |Brown||Brown||Tan||Ginger||Brown||Grey||Tan||Tan||
-| Rabbit food |26|24|11|21|19|43|15|35|
- Rab died with 0 food
-| Rabbit name |Brown||Brown||Tan||Ginger||Brown||Grey||Tan||Tan||
-| Rabbit food |26|24|11|21|19|43|15|35|
-
- Rab -20 food 
-| Rabbit name |Brown||Brown||Tan||Ginger||Brown||Grey||Tan||Tan||
-| Rabbit food |6|4|0|1|0|23|0|15|
- add new reb
-| Rabbit name |Tan||Black||Brown||Brown||Tan||Ginger||Brown||Grey||Tan||Tan||
-| Rabbit food |0|0|6|4|0|1|0|23|0|15| 
- 
- Night 2. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
- 
- 
- Day 3. Food in forest = 203;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   10  10  15  15  13  10  14  13  15  10  15  15  15  13  10  10 
-
-| Rabbit name |Tan||Black||Brown||Brown||Tan||Ginger||Brown||Grey||Tan||Tan||
-| Rabbit food |10|14|21|17|38|26|10|53|25|28|
- Day 3 xod 1: Alena - 0, Kostik - 38, 
- 	Aditional move of tiger Alena; Food before move = 0. Alena - 10, Kostik - 38, 
- Rab before go
-| Rabbit name |Black||Brown||Brown||Ginger||Brown||Grey||Tan||Tan||
-| Rabbit food |14|21|17|26|10|53|25|28|
- Rab died with 0 food
-| Rabbit name |Black||Brown||Brown||Ginger||Brown||Grey||Tan||Tan||
-| Rabbit food |14|21|17|26|10|53|25|28|
-
- Rab -20 food 
-| Rabbit name |Black||Brown||Brown||Ginger||Brown||Grey||Tan||Tan||
-| Rabbit food |0|1|0|6|0|33|5|8|
- add new reb
-| Rabbit name |BlackWhite||Black||Black||Brown||Brown||Ginger||Brown||Grey||Tan||Tan||
-| Rabbit food |0|0|0|1|0|6|0|33|5|8| 
- 
- Night 3. Food in forest = 10;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  10 
- 
- 
- Day 4. Food in forest = 189;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   15  13  10  10  15  10  11  11  10  13  12  11  10  11  13  14 
-
-| Rabbit name |BlackWhite||Black||Black||Brown||Brown||Ginger||Brown||Grey||Tan||Tan||
-| Rabbit food |14|26|11|11|25|17|21|53|31|33|
- Day 4 xod 1: Alena - 25, Kostik - 0, 
- 	Aditional move of tiger Kostik; Food before move = 0. Alena - 25, Kostik - 14, 
- Rab before go
-| Rabbit name |Black||Black||Brown||Ginger||Brown||Grey||Tan||Tan||
-| Rabbit food |26|11|11|17|21|53|31|33|
- Rab died with 0 food
-| Rabbit name |Black||Black||Brown||Ginger||Brown||Grey||Tan||Tan||
-| Rabbit food |26|11|11|17|21|53|31|33|
-
- Rab -20 food 
-| Rabbit name |Black||Black||Brown||Ginger||Brown||Grey||Tan||Tan||
-| Rabbit food |6|0|0|0|1|33|11|13|
- add new reb
-| Rabbit name |BlackWhite||White||Black||Black||Brown||Ginger||Brown||Grey||Tan||Tan||
-| Rabbit food |0|0|6|0|0|0|1|33|11|13| 
- 
- Night 4. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
- 
- 
- Day 5. Food in forest = 190;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   13  12  12  11  10  12  10  15  12  12  15  10  10  11  10  15 
-
-| Rabbit name |BlackWhite||White||Black||Black||Brown||Ginger||Brown||Grey||Tan||Tan||
-| Rabbit food |11|36|21|10|10|13|11|69|33|28|
- Day 5 xod 1: 
- 	Aditional move of tiger Alena; Food before move = 0. Alena - 13, Kostik - 0, 
- 	Aditional move of tiger Kostik; Food before move = 0. Alena - 13, Kostik - 11, 
- Rab before go
-| Rabbit name |White||Black||Black||Brown||Brown||Grey||Tan||Tan||
-| Rabbit food |36|21|10|10|11|69|33|28|
- Rab died with 0 food
-| Rabbit name |White||Black||Black||Brown||Brown||Grey||Tan||Tan||
-| Rabbit food |36|21|10|10|11|69|33|28|
-
- Rab -20 food 
-| Rabbit name |White||Black||Black||Brown||Brown||Grey||Tan||Tan||
-| Rabbit food |16|1|0|0|0|49|13|8|
- add new reb
-| Rabbit name |Blue||Tan||White||Black||Black||Brown||Brown||Grey||Tan||Tan||
-| Rabbit food |0|0|16|1|0|0|0|49|13|8| 
- 
- Night 5. Food in forest = 12;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  12  0  0  0  0  0  0  0  0  0  0  0  0  0 
- 
- 
- Day 6. Food in forest = 199;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   12  12  13  10  10  12  12  11  15  11  11  15  15  12  15  13 
-
-| Rabbit name |Blue||Tan||White||Black||Black||Brown||Brown||Grey||Tan||Tan||
-| Rabbit food |24|12|28|26|27|15|22|61|35|36|
- Day 6 xod 1: Alena - 24, Kostik - 0, Alena - 24, Kostik - 28, 
- Rab before go
-| Rabbit name |Tan||Black||Black||Brown||Brown||Grey||Tan||Tan||
-| Rabbit food |12|26|27|15|22|61|35|36|
- Rab died with 0 food
-| Rabbit name |Tan||Black||Black||Brown||Brown||Grey||Tan||Tan||
-| Rabbit food |12|26|27|15|22|61|35|36|
-
- Rab -20 food 
-| Rabbit name |Tan||Black||Black||Brown||Brown||Grey||Tan||Tan||
-| Rabbit food |0|6|7|0|2|41|15|16|
- add new reb
-| Rabbit name |Brown||Black||White||Tan||Black||Black||Brown||Brown||Grey||Tan||Tan||
-| Rabbit food |0|0|0|0|6|7|0|2|41|15|16| 
- 
- Night 6. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
- 
- 
- Day 7. Food in forest = 201;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   14  13  13  10  13  15  13  10  14  12  13  10  12  13  13  13 
-
-| Rabbit name |Brown||Black||White||Tan||Black||Black||Brown||Brown||Grey||Tan||Tan||
-| Rabbit food |10|14|12|26|16|20|26|24|68|41|31|
- Day 7 xod 1: Alena - 16, Kostik - 0, 
- 	Aditional move of tiger Kostik; Food before move = 0. Alena - 16, Kostik - 20, 
- Rab before go
-| Rabbit name |Brown||Black||White||Tan||Brown||Brown||Grey||Tan||Tan||
-| Rabbit food |10|14|12|26|26|24|68|41|31|
- Rab died with 0 food
-| Rabbit name |Brown||Black||White||Tan||Brown||Brown||Grey||Tan||Tan||
-| Rabbit food |10|14|12|26|26|24|68|41|31|
-
- Rab -20 food 
-| Rabbit name |Brown||Black||White||Tan||Brown||Brown||Grey||Tan||Tan||
-| Rabbit food |0|0|0|6|6|4|48|21|11|
- add new reb
-| Rabbit name |Blue||White||BlackWhite||Brown||Black||White||Tan||Brown||Brown||Grey||Tan||Tan||
-| Rabbit food |0|0|0|0|0|0|6|6|4|48|21|11| 
- 
- Night 7. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
- 
- 
- Day 8. Food in forest = 199;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   11  14  11  13  13  11  15  14  14  14  10  14  11  11  11  12 
-
-| Rabbit name |Blue||White||BlackWhite||Brown||Black||White||Tan||Brown||Brown||Grey||Tan||Tan||
-| Rabbit food |25|14|14|11|11|10|30|31|32|62|33|22|
- Day 8 xod 1: Alena - 0, Kostik - 30, 
- 	Aditional move of tiger Alena; Food before move = 0. 
- Rab before go
-| Rabbit name |Blue||White||BlackWhite||Brown||Black||White||Brown||Grey||Tan||Tan||
-| Rabbit food |25|14|14|11|11|10|31|62|33|22|
- Rab died with 0 food
-| Rabbit name |Blue||White||BlackWhite||Brown||Black||White||Brown||Grey||Tan||Tan||
-| Rabbit food |25|14|14|11|11|10|31|62|33|22|
-
- Rab -20 food 
-| Rabbit name |Blue||White||BlackWhite||Brown||Black||White||Brown||Grey||Tan||Tan||
-| Rabbit food |5|0|0|0|0|0|11|42|13|2|
- add new reb
-| Rabbit name |Tan||Tan||Blue||White||BlackWhite||Brown||Black||White||Brown||Grey||Tan||Tan||
-| Rabbit food |0|0|5|0|0|0|0|0|11|42|13|2| 
- 
- Night 8. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
- 
- 
- Day 9. Food in forest = 211;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   11  15  13  14  10  13  14  10  14  12  15  14  14  15  14  13 
-
-| Rabbit name |Tan||Tan||Blue||White||BlackWhite||Brown||Black||White||Brown||Grey||Tan||Tan||
-| Rabbit food |13|14|15|26|15|12|28|24|38|57|27|15|
- Day 9 xod 1: Alena - 26, Kostik - 0, Alena - 26, Kostik - 15, 
- Rab before go
-| Rabbit name |Tan||Tan||BlackWhite||Brown||Black||White||Brown||Grey||Tan||Tan||
-| Rabbit food |13|14|15|12|28|24|38|57|27|15|
- Rab died with 0 food
-| Rabbit name |Tan||Tan||BlackWhite||Brown||Black||White||Brown||Grey||Tan||Tan||
-| Rabbit food |13|14|15|12|28|24|38|57|27|15|
-
- Rab -20 food 
-| Rabbit name |Tan||Tan||BlackWhite||Brown||Black||White||Brown||Grey||Tan||Tan||
-| Rabbit food |0|0|0|0|8|4|18|37|7|0|
- add new reb
-| Rabbit name |Ginger||White||Tan||Tan||BlackWhite||Brown||Black||White||Brown||Grey||Tan||Tan||
-| Rabbit food |0|0|0|0|0|0|8|4|18|37|7|0| 
- 
- Night 9. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
- 
- 
- Day 10. Food in forest = 212;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   11  15  15  14  13  13  12  14  12  12  15  12  13  13  15  13 
-
-| Rabbit name |Ginger||White||Tan||Tan||BlackWhite||Brown||Black||White||Brown||Grey||Tan||Tan||
-| Rabbit food |11|15|13|14|27|12|36|17|44|49|33|15|
- Day 10 xod 1: Alena - 17, Kostik - 0, Alena - 17, Kostik - 13, 
- Rab before go
-| Rabbit name |Ginger||White||Tan||BlackWhite||Brown||Black||Brown||Grey||Tan||Tan||
-| Rabbit food |11|15|14|27|12|36|44|49|33|15|
- Rab died with 0 food
-| Rabbit name |Ginger||White||Tan||BlackWhite||Brown||Black||Brown||Grey||Tan||Tan||
-| Rabbit food |11|15|14|27|12|36|44|49|33|15|
-
- Rab -20 food 
-| Rabbit name |Ginger||White||Tan||BlackWhite||Brown||Black||Brown||Grey||Tan||Tan||
-| Rabbit food |0|0|0|7|0|16|24|29|13|0|
- add new reb
-| Rabbit name |Black||Grey||Ginger||White||Tan||BlackWhite||Brown||Black||Brown||Grey||Tan||Tan||
-| Rabbit food |0|0|0|0|0|7|0|16|24|29|13|0| 
- 
- Night 10. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
- 
- 
- Day 11. Food in forest = 210;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   13  13  14  13  12  14  11  15  15  12  15  13  15  10  11  14 
-
-| Rabbit name |Black||Grey||Ginger||White||Tan||BlackWhite||Brown||Black||Brown||Grey||Tan||Tan||
-| Rabbit food |28|12|13|26|15|20|14|43|45|43|25|15|
- Day 11 xod 1: Alena - 43, Kostik - 0, Alena - 43, Kostik - 15, 
- Rab before go
-| Rabbit name |Black||Grey||Ginger||White||BlackWhite||Brown||Brown||Grey||Tan||Tan||
-| Rabbit food |28|12|13|26|20|14|45|43|25|15|
- Rab died with 0 food
-| Rabbit name |Black||Grey||Ginger||White||BlackWhite||Brown||Brown||Grey||Tan||Tan||
-| Rabbit food |28|12|13|26|20|14|45|43|25|15|
-
- Rab -20 food 
-| Rabbit name |Black||Grey||Ginger||White||BlackWhite||Brown||Brown||Grey||Tan||Tan||
-| Rabbit food |8|0|0|6|0|0|25|23|5|0|
- add new reb
-| Rabbit name |BlackWhite||Tan||Black||Grey||Ginger||White||BlackWhite||Brown||Brown||Grey||Tan||Tan||
-| Rabbit food |0|0|8|0|0|6|0|0|25|23|5|0| 
- 
- Night 11. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
- 
- 
- Day 12. Food in forest = 193;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   12  14  14  10  11  15  10  15  12  11  11  12  12  12  11  11 
-
-| Rabbit name |BlackWhite||Tan||Black||Grey||Ginger||White||BlackWhite||Brown||Brown||Grey||Tan||Tan||
-| Rabbit food |11|21|19|14|12|41|10|23|40|38|19|12|
- Day 12 xod 1: Alena - 38, Kostik - 0, Alena - 38, Kostik - 41, 
- Rab before go
-| Rabbit name |BlackWhite||Tan||Black||Grey||Ginger||BlackWhite||Brown||Brown||Tan||Tan||
-| Rabbit food |11|21|19|14|12|10|23|40|19|12|
- Rab died with 0 food
-| Rabbit name |BlackWhite||Tan||Black||Grey||Ginger||BlackWhite||Brown||Brown||Tan||Tan||
-| Rabbit food |11|21|19|14|12|10|23|40|19|12|
-
- Rab -20 food 
-| Rabbit name |BlackWhite||Tan||Black||Grey||Ginger||BlackWhite||Brown||Brown||Tan||Tan||
-| Rabbit food |0|1|0|0|0|0|3|20|0|0|
- add new reb
-| Rabbit name |BlackWhite||BlackWhite||Tan||Black||Grey||Ginger||BlackWhite||Brown||Brown||Tan||Tan||
-| Rabbit food |0|0|1|0|0|0|0|3|20|0|0| 
- 
- Night 12. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
- 
- 
- Day 13. Food in forest = 184;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   14  13  10  11  12  10  11  15  13  10  10  12  12  10  11  10 
-
-| Rabbit name |BlackWhite||BlackWhite||Tan||Black||Grey||Ginger||BlackWhite||Brown||Brown||Tan||Tan||
-| Rabbit food |24|23|13|25|10|10|11|25|30|14|23|
- Day 13 xod 1: Alena - 11, Kostik - 0, Alena - 11, Kostik - 24, 
- Rab before go
-| Rabbit name |BlackWhite||Tan||Black||Grey||Ginger||Brown||Brown||Tan||Tan||
-| Rabbit food |23|13|25|10|10|25|30|14|23|
- Rab died with 0 food
-| Rabbit name |BlackWhite||Tan||Black||Grey||Ginger||Brown||Brown||Tan||Tan||
-| Rabbit food |23|13|25|10|10|25|30|14|23|
-
- Rab -20 food 
-| Rabbit name |BlackWhite||Tan||Black||Grey||Ginger||Brown||Brown||Tan||Tan||
-| Rabbit food |3|0|5|0|0|5|10|0|3|
- add new reb
-| Rabbit name |Ginger||Black||BlackWhite||Tan||Black||Grey||Ginger||Brown||Brown||Tan||Tan||
-| Rabbit food |0|0|3|0|5|0|0|5|10|0|3| 
- 
- Night 13. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
- 
- 
- Day 14. Food in forest = 194;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   10  11  15  11  11  15  15  14  15  10  10  11  11  11  11  13 
-
-| Rabbit name |Ginger||Black||BlackWhite||Tan||Black||Grey||Ginger||Brown||Brown||Tan||Tan||
-| Rabbit food |15|25|14|24|15|11|11|18|36|22|29|
- Day 14 xod 1: Alena - 18, Kostik - 0, Alena - 18, Kostik - 36, 
- Rab before go
-| Rabbit name |Ginger||Black||BlackWhite||Tan||Black||Grey||Ginger||Tan||Tan||
-| Rabbit food |15|25|14|24|15|11|11|22|29|
- Rab died with 0 food
-| Rabbit name |Ginger||Black||BlackWhite||Tan||Black||Grey||Ginger||Tan||Tan||
-| Rabbit food |15|25|14|24|15|11|11|22|29|
-
- Rab -20 food 
-| Rabbit name |Ginger||Black||BlackWhite||Tan||Black||Grey||Ginger||Tan||Tan||
-| Rabbit food |0|5|0|4|0|0|0|2|9|
- add new reb
-| Rabbit name |Brown||Peach||Ginger||Black||BlackWhite||Tan||Black||Grey||Ginger||Tan||Tan||
-| Rabbit food |0|0|0|5|0|4|0|0|0|2|9| 
- 
- Night 14. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
- 
- 
- Day 15. Food in forest = 210;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   13  14  15  12  12  14  15  10  15  10  13  12  13  13  15  14 
-
-| Rabbit name |Brown||Peach||Ginger||Black||BlackWhite||Tan||Black||Grey||Ginger||Tan||Tan||
-| Rabbit food |24|28|15|17|13|18|13|29|12|27|34|
- Day 15 xod 1: Alena - 0, Kostik - 17, 
- 	Aditional move of tiger Alena; Food before move = 0. 
- Rab before go
-| Rabbit name |Brown||Peach||Ginger||BlackWhite||Tan||Black||Grey||Ginger||Tan||Tan||
-| Rabbit food |24|28|15|13|18|13|29|12|27|34|
- Rab died with 0 food
-| Rabbit name |Brown||Peach||Ginger||BlackWhite||Tan||Black||Grey||Ginger||Tan||Tan||
-| Rabbit food |24|28|15|13|18|13|29|12|27|34|
-
- Rab -20 food 
-| Rabbit name |Brown||Peach||Ginger||BlackWhite||Tan||Black||Grey||Ginger||Tan||Tan||
-| Rabbit food |4|8|0|0|0|0|9|0|7|14|
- add new reb
-| Rabbit name |Peach||Grey||Brown||Peach||Ginger||BlackWhite||Tan||Black||Grey||Ginger||Tan||Tan||
-| Rabbit food |0|0|4|8|0|0|0|0|9|0|7|14| 
+| Rabbit name |Ginger||Tan||Blue||BlackWhite||Blue||Blue||Tan||Tan||Peach||Tan||Grey||BlackWhite||Ginger||
+| Rabbit food |0|0|0|0|0|11|0|0|0|7|21|0|11| 
  
  Night 15. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
  
  
- Day 16. Food in forest = 201;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   12  13  15  15  12  11  12  15  11  10  11  15  11  13  13  12 
+ Day 16. Food in forest = 200;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   10  11  15  10  15  13  13  13  10  13  12  14  15  12  13  11 
 
-| Rabbit name |Peach||Grey||Brown||Peach||Ginger||BlackWhite||Tan||Black||Grey||Ginger||Tan||Tan||
-| Rabbit food |13|28|27|20|12|11|26|10|22|11|19|44|
- Day 16 xod 1: Alena - 28, Kostik - 0, Alena - 28, Kostik - 20, 
+| Rabbit name |Ginger||Tan||Blue||BlackWhite||Blue||Blue||Tan||Tan||Peach||Tan||Grey||BlackWhite||Ginger||
+| Rabbit food |10|10|11|30|13|24|25|25|10|20|33|15|24|
+ Day 16 xod 1: Alena - 0, Kostik - 24, 
+ 	Aditional move of tiger Alena; Food before move = 0. Alena - 15, Kostik - 24, 
  Rab before go
-| Rabbit name |Peach||Brown||Ginger||BlackWhite||Tan||Black||Grey||Ginger||Tan||Tan||
-| Rabbit food |13|27|12|11|26|10|22|11|19|44|
+| Rabbit name |Ginger||Tan||Blue||BlackWhite||Blue||Tan||Tan||Peach||Tan||Grey||Ginger||
+| Rabbit food |10|10|11|30|13|25|25|10|20|33|24|
  Rab died with 0 food
-| Rabbit name |Peach||Brown||Ginger||BlackWhite||Tan||Black||Grey||Ginger||Tan||Tan||
-| Rabbit food |13|27|12|11|26|10|22|11|19|44|
+| Rabbit name |Ginger||Tan||Blue||BlackWhite||Blue||Tan||Tan||Peach||Tan||Grey||Ginger||
+| Rabbit food |10|10|11|30|13|25|25|10|20|33|24|
 
  Rab -20 food 
-| Rabbit name |Peach||Brown||Ginger||BlackWhite||Tan||Black||Grey||Ginger||Tan||Tan||
-| Rabbit food |0|7|0|0|6|0|2|0|0|24|
+| Rabbit name |Ginger||Tan||Blue||BlackWhite||Blue||Tan||Tan||Peach||Tan||Grey||Ginger||
+| Rabbit food |0|0|0|10|0|5|5|0|0|13|4|
  add new reb
-| Rabbit name |Black||White||Peach||Brown||Ginger||BlackWhite||Tan||Black||Grey||Ginger||Tan||Tan||
-| Rabbit food |0|0|0|7|0|0|6|0|2|0|0|24| 
+| Rabbit name |Blue||Blue||Ginger||Tan||Blue||BlackWhite||Blue||Tan||Tan||Peach||Tan||Grey||Ginger||
+| Rabbit food |0|0|0|0|0|10|0|5|5|0|0|13|4| 
  
  Night 16. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
  
  
- Day 17. Food in forest = 204;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   14  15  13  10  13  10  14  13  15  15  15  10  13  12  11  11 
+ Day 17. Food in forest = 213;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   13  10  15  15  11  15  15  11  14  15  14  15  12  13  13  12 
 
-| Rabbit name |Black||White||Peach||Brown||Ginger||BlackWhite||Tan||Black||Grey||Ginger||Tan||Tan||
-| Rabbit food |24|13|15|22|14|26|29|15|12|15|10|48|
- Day 17 xod 1: Alena - 0, Kostik - 24, 
- 	Aditional move of tiger Alena; Food before move = 0. Alena - 29, Kostik - 24, 
+| Rabbit name |Blue||Blue||Ginger||Tan||Blue||BlackWhite||Blue||Tan||Tan||Peach||Tan||Grey||Ginger||
+| Rabbit food |26|27|15|12|15|24|23|20|18|11|15|27|17|
+ Day 17 xod 1: 
+ 	Aditional move of tiger Alena; Food before move = 0. Alena - 17, Kostik - 0, 
+ 	Aditional move of tiger Kostik; Food before move = 0. Alena - 17, Kostik - 18, 
  Rab before go
-| Rabbit name |White||Peach||Brown||Ginger||BlackWhite||Black||Grey||Ginger||Tan||Tan||
-| Rabbit food |13|15|22|14|26|15|12|15|10|48|
+| Rabbit name |Blue||Blue||Ginger||Tan||Blue||BlackWhite||Blue||Tan||Peach||Tan||Grey||
+| Rabbit food |26|27|15|12|15|24|23|20|11|15|27|
  Rab died with 0 food
-| Rabbit name |White||Peach||Brown||Ginger||BlackWhite||Black||Grey||Ginger||Tan||Tan||
-| Rabbit food |13|15|22|14|26|15|12|15|10|48|
+| Rabbit name |Blue||Blue||Ginger||Tan||Blue||BlackWhite||Blue||Tan||Peach||Tan||Grey||
+| Rabbit food |26|27|15|12|15|24|23|20|11|15|27|
 
  Rab -20 food 
-| Rabbit name |White||Peach||Brown||Ginger||BlackWhite||Black||Grey||Ginger||Tan||Tan||
-| Rabbit food |0|0|2|0|6|0|0|0|0|28|
+| Rabbit name |Blue||Blue||Ginger||Tan||Blue||BlackWhite||Blue||Tan||Peach||Tan||Grey||
+| Rabbit food |6|7|0|0|0|4|3|0|0|0|7|
  add new reb
-| Rabbit name |Tan||White||Peach||Brown||Ginger||BlackWhite||Black||Grey||Ginger||Tan||Tan||
-| Rabbit food |0|0|0|2|0|6|0|0|0|0|28| 
+| Rabbit name |Peach||White||Blue||Blue||Ginger||Tan||Blue||BlackWhite||Blue||Tan||Peach||Tan||Grey||
+| Rabbit food |0|0|6|7|0|0|0|4|3|0|0|0|7| 
  
  Night 17. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
  
  
- Day 18. Food in forest = 208;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   14  15  11  12  14  11  15  13  13  10  14  12  14  13  13  14 
+ Day 18. Food in forest = 203;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   10  10  14  11  12  11  14  13  14  12  15  13  15  14  10  15 
 
-| Rabbit name |Tan||White||Peach||Brown||Ginger||BlackWhite||Black||Grey||Ginger||Tan||Tan||
-| Rabbit food |25|14|23|30|14|18|11|14|26|26|43|
- Day 18 xod 1: Alena - 14, Kostik - 0, 
- 	Aditional move of tiger Kostik; Food before move = 0. Alena - 14, Kostik - 30, 
+| Rabbit name |Peach||White||Blue||Blue||Ginger||Tan||Blue||BlackWhite||Blue||Tan||Peach||Tan||Grey||
+| Rabbit food |29|26|19|20|15|11|11|14|17|15|26|10|17|
+ Day 18 xod 1: Alena - 26, Kostik - 0, Alena - 26, Kostik - 11, 
  Rab before go
-| Rabbit name |Tan||White||Peach||Ginger||BlackWhite||Black||Ginger||Tan||Tan||
-| Rabbit food |25|14|23|14|18|11|26|26|43|
+| Rabbit name |Peach||White||Blue||Blue||Ginger||Tan||BlackWhite||Blue||Tan||Tan||Grey||
+| Rabbit food |29|26|19|20|15|11|14|17|15|10|17|
  Rab died with 0 food
-| Rabbit name |Tan||White||Peach||Ginger||BlackWhite||Black||Ginger||Tan||Tan||
-| Rabbit food |25|14|23|14|18|11|26|26|43|
+| Rabbit name |Peach||White||Blue||Blue||Ginger||Tan||BlackWhite||Blue||Tan||Tan||Grey||
+| Rabbit food |29|26|19|20|15|11|14|17|15|10|17|
 
  Rab -20 food 
-| Rabbit name |Tan||White||Peach||Ginger||BlackWhite||Black||Ginger||Tan||Tan||
-| Rabbit food |5|0|3|0|0|0|6|6|23|
+| Rabbit name |Peach||White||Blue||Blue||Ginger||Tan||BlackWhite||Blue||Tan||Tan||Grey||
+| Rabbit food |9|6|0|0|0|0|0|0|0|0|0|
  add new reb
-| Rabbit name |Tan||White||Tan||White||Peach||Ginger||BlackWhite||Black||Ginger||Tan||Tan||
-| Rabbit food |0|0|5|0|3|0|0|0|6|6|23| 
+| Rabbit name |Ginger||Peach||White||Blue||Blue||Ginger||Tan||BlackWhite||Blue||Tan||Tan||Grey||
+| Rabbit food |0|9|6|0|0|0|0|0|0|0|0|0| 
  
  Night 18. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
  
  
- Day 19. Food in forest = 198;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   12  11  14  15  12  15  13  10  13  14  15  10  12  10  10  12 
+ Day 19. Food in forest = 184;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   11  13  11  14  11  11  10  10  10  12  10  10  12  13  14  12 
 
-| Rabbit name |Tan||White||Tan||White||Peach||Ginger||BlackWhite||Black||Ginger||Tan||Tan||
-| Rabbit food |12|27|27|15|16|10|27|14|21|28|44|
- Day 19 xod 1: Alena - 0, Kostik - 27, 
- 	Aditional move of tiger Alena; Food before move = 0. Alena - 27, Kostik - 27, 
+| Rabbit name |Ginger||Peach||White||Blue||Blue||Ginger||Tan||BlackWhite||Blue||Tan||Tan||Grey||
+| Rabbit food |14|19|18|10|22|21|10|14|23|13|13|22|
+ Day 19 xod 1: Alena - 10, Kostik - 0, Alena - 10, Kostik - 14, 
  Rab before go
-| Rabbit name |Tan||White||Peach||Ginger||BlackWhite||Black||Ginger||Tan||Tan||
-| Rabbit food |12|15|16|10|27|14|21|28|44|
+| Rabbit name |Peach||White||Blue||Ginger||Tan||BlackWhite||Blue||Tan||Tan||Grey||
+| Rabbit food |19|18|22|21|10|14|23|13|13|22|
  Rab died with 0 food
-| Rabbit name |Tan||White||Peach||Ginger||BlackWhite||Black||Ginger||Tan||Tan||
-| Rabbit food |12|15|16|10|27|14|21|28|44|
+| Rabbit name |Peach||White||Blue||Ginger||Tan||BlackWhite||Blue||Tan||Tan||Grey||
+| Rabbit food |19|18|22|21|10|14|23|13|13|22|
 
  Rab -20 food 
-| Rabbit name |Tan||White||Peach||Ginger||BlackWhite||Black||Ginger||Tan||Tan||
-| Rabbit food |0|0|0|0|7|0|1|8|24|
+| Rabbit name |Peach||White||Blue||Ginger||Tan||BlackWhite||Blue||Tan||Tan||Grey||
+| Rabbit food |0|0|2|1|0|0|3|0|0|2|
  add new reb
-| Rabbit name |Blue||Peach||Tan||White||Peach||Ginger||BlackWhite||Black||Ginger||Tan||Tan||
-| Rabbit food |0|0|0|0|0|0|7|0|1|8|24| 
+| Rabbit name |Blue||White||Peach||White||Blue||Ginger||Tan||BlackWhite||Blue||Tan||Tan||Grey||
+| Rabbit food |0|0|0|0|2|1|0|0|3|0|0|2| 
  
  Night 19. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
  
  
- Day 20. Food in forest = 200;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   13  11  13  11  12  13  10  15  13  13  15  15  11  13  11  11 
+ Day 20. Food in forest = 206;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   15  13  13  15  13  10  15  13  15  15  11  11  11  11  14  11 
 
-| Rabbit name |Blue||Peach||Tan||White||Peach||Ginger||BlackWhite||Black||Ginger||Tan||Tan||
-| Rabbit food |24|11|13|15|26|25|18|22|14|23|49|
- Day 20 xod 1: Alena - 0, Kostik - 18, 
- 	Aditional move of tiger Alena; Food before move = 0. Alena - 11, Kostik - 18, 
+| Rabbit name |Blue||White||Peach||White||Blue||Ginger||Tan||BlackWhite||Blue||Tan||Tan||Grey||
+| Rabbit food |15|28|15|13|26|12|15|11|31|24|11|13|
+ Day 20 xod 1: Alena - 12, Kostik - 0, 
+ 	Aditional move of tiger Kostik; Food before move = 0. Alena - 12, Kostik - 15, 
  Rab before go
-| Rabbit name |Blue||Tan||White||Peach||Ginger||Black||Ginger||Tan||Tan||
-| Rabbit food |24|13|15|26|25|22|14|23|49|
+| Rabbit name |Blue||White||Peach||White||Blue||BlackWhite||Blue||Tan||Tan||Grey||
+| Rabbit food |15|28|15|13|26|11|31|24|11|13|
  Rab died with 0 food
-| Rabbit name |Blue||Tan||White||Peach||Ginger||Black||Ginger||Tan||Tan||
-| Rabbit food |24|13|15|26|25|22|14|23|49|
+| Rabbit name |Blue||White||Peach||White||Blue||BlackWhite||Blue||Tan||Tan||Grey||
+| Rabbit food |15|28|15|13|26|11|31|24|11|13|
 
  Rab -20 food 
-| Rabbit name |Blue||Tan||White||Peach||Ginger||Black||Ginger||Tan||Tan||
-| Rabbit food |4|0|0|6|5|2|0|3|29|
+| Rabbit name |Blue||White||Peach||White||Blue||BlackWhite||Blue||Tan||Tan||Grey||
+| Rabbit food |0|8|0|0|6|0|11|4|0|0|
  add new reb
-| Rabbit name |Ginger||BlackWhite||Peach||Blue||Tan||White||Peach||Ginger||Black||Ginger||Tan||Tan||
-| Rabbit food |0|0|0|4|0|0|6|5|2|0|3|29| 
+| Rabbit name |White||Black||Blue||White||Peach||White||Blue||BlackWhite||Blue||Tan||Tan||Grey||
+| Rabbit food |0|0|0|8|0|0|6|0|11|4|0|0| 
  
  Night 20. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
  
  
- Day 21. Food in forest = 192;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   10  10  14  11  14  11  11  10  15  13  10  10  10  14  15  14 
+ Day 21. Food in forest = 197;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   15  15  14  11  12  12  14  10  10  11  13  11  11  14  13  11 
 
-| Rabbit name |Ginger||BlackWhite||Peach||Blue||Tan||White||Peach||Ginger||Black||Ginger||Tan||Tan||
-| Rabbit food |21|11|24|29|13|10|34|16|12|14|13|44|
- Day 21 xod 1: Alena - 0, Kostik - 12, 
- 	Aditional move of tiger Alena; Food before move = 0. Alena - 44, Kostik - 12, 
+| Rabbit name |White||Black||Blue||White||Peach||White||Blue||BlackWhite||Blue||Tan||Tan||Grey||
+| Rabbit food |27|11|13|29|11|15|16|27|22|30|11|14|
+ Day 21 xod 1: Alena - 27, Kostik - 0, Alena - 27, Kostik - 11, 
  Rab before go
-| Rabbit name |Ginger||BlackWhite||Peach||Blue||Tan||White||Peach||Ginger||Ginger||Tan||
-| Rabbit food |21|11|24|29|13|10|34|16|14|13|
+| Rabbit name |Black||Blue||White||Peach||White||Blue||BlackWhite||Blue||Tan||Grey||
+| Rabbit food |11|13|29|11|15|16|27|22|30|14|
  Rab died with 0 food
-| Rabbit name |Ginger||BlackWhite||Peach||Blue||Tan||White||Peach||Ginger||Ginger||Tan||
-| Rabbit food |21|11|24|29|13|10|34|16|14|13|
+| Rabbit name |Black||Blue||White||Peach||White||Blue||BlackWhite||Blue||Tan||Grey||
+| Rabbit food |11|13|29|11|15|16|27|22|30|14|
 
  Rab -20 food 
-| Rabbit name |Ginger||BlackWhite||Peach||Blue||Tan||White||Peach||Ginger||Ginger||Tan||
-| Rabbit food |1|0|4|9|0|0|14|0|0|0|
+| Rabbit name |Black||Blue||White||Peach||White||Blue||BlackWhite||Blue||Tan||Grey||
+| Rabbit food |0|0|9|0|0|0|7|2|10|0|
  add new reb
-| Rabbit name |Blue||Tan||Ginger||BlackWhite||Peach||Blue||Tan||White||Peach||Ginger||Ginger||Tan||
-| Rabbit food |0|0|1|0|4|9|0|0|14|0|0|0| 
+| Rabbit name |White||Brown||Black||Blue||White||Peach||White||Blue||BlackWhite||Blue||Tan||Grey||
+| Rabbit food |0|0|0|0|9|0|0|0|7|2|10|0| 
  
  Night 21. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
  
  
- Day 22. Food in forest = 201;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   13  12  11  12  12  13  13  10  11  14  15  13  15  12  10  15 
+ Day 22. Food in forest = 196;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   10  12  14  10  13  10  13  13  12  14  10  12  15  12  12  14 
 
-| Rabbit name |Blue||Tan||Ginger||BlackWhite||Peach||Blue||Tan||White||Peach||Ginger||Ginger||Tan||
-| Rabbit food |13|27|25|12|16|35|10|26|29|13|11|12|
- Day 22 xod 1: Alena - 29, Kostik - 0, Alena - 29, Kostik - 25, 
+| Rabbit name |White||Brown||Black||Blue||White||Peach||White||Blue||BlackWhite||Blue||Tan||Grey||
+| Rabbit food |22|12|10|12|35|27|14|10|17|15|24|26|
+ Day 22 xod 1: Alena - 0, Kostik - 17, 
+ 	Aditional move of tiger Alena; Food before move = 0. 
  Rab before go
-| Rabbit name |Blue||Tan||BlackWhite||Peach||Blue||Tan||White||Ginger||Ginger||Tan||
-| Rabbit food |13|27|12|16|35|10|26|13|11|12|
+| Rabbit name |White||Brown||Blue||White||Peach||White||Blue||Blue||Tan||Grey||
+| Rabbit food |22|12|12|35|27|14|10|15|24|26|
  Rab died with 0 food
-| Rabbit name |Blue||Tan||BlackWhite||Peach||Blue||Tan||White||Ginger||Ginger||Tan||
-| Rabbit food |13|27|12|16|35|10|26|13|11|12|
+| Rabbit name |White||Brown||Blue||White||Peach||White||Blue||Blue||Tan||Grey||
+| Rabbit food |22|12|12|35|27|14|10|15|24|26|
 
  Rab -20 food 
-| Rabbit name |Blue||Tan||BlackWhite||Peach||Blue||Tan||White||Ginger||Ginger||Tan||
-| Rabbit food |0|7|0|0|15|0|6|0|0|0|
+| Rabbit name |White||Brown||Blue||White||Peach||White||Blue||Blue||Tan||Grey||
+| Rabbit food |2|0|0|15|7|0|0|0|4|6|
  add new reb
-| Rabbit name |Grey||Blue||Tan||BlackWhite||Peach||Blue||Tan||White||Ginger||Ginger||Tan||
-| Rabbit food |0|0|7|0|0|15|0|6|0|0|0| 
+| Rabbit name |Blue||Tan||White||Brown||Blue||White||Peach||White||Blue||Blue||Tan||Grey||
+| Rabbit food |0|0|2|0|0|15|7|0|0|0|4|6| 
  
  Night 22. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
  
  
- Day 23. Food in forest = 191;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   11  10  15  13  10  11  10  14  10  15  13  10  12  10  14  13 
+ Day 23. Food in forest = 199;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   13  12  13  15  14  10  14  10  14  13  15  14  10  10  12  10 
 
-| Rabbit name |Grey||Blue||Tan||BlackWhite||Peach||Blue||Tan||White||Ginger||Ginger||Tan||
-| Rabbit food |10|22|20|14|25|29|23|16|15|20|25|
- Day 23 xod 1: Alena - 15, Kostik - 0, 
- 	Aditional move of tiger Kostik; Food before move = 0. 
+| Rabbit name |Blue||Tan||White||Brown||Blue||White||Peach||White||Blue||Blue||Tan||Grey||
+| Rabbit food |13|28|12|10|22|28|17|27|28|10|19|19|
+ Day 23 xod 1: Alena - 10, Kostik - 0, Alena - 10, Kostik - 19, 
  Rab before go
-| Rabbit name |Grey||Blue||Tan||BlackWhite||Peach||Blue||Tan||White||Ginger||Tan||
-| Rabbit food |10|22|20|14|25|29|23|16|20|25|
+| Rabbit name |Blue||Tan||White||Brown||Blue||White||Peach||White||Blue||Tan||
+| Rabbit food |13|28|12|10|22|28|17|27|28|19|
  Rab died with 0 food
-| Rabbit name |Grey||Blue||Tan||BlackWhite||Peach||Blue||Tan||White||Ginger||Tan||
-| Rabbit food |10|22|20|14|25|29|23|16|20|25|
+| Rabbit name |Blue||Tan||White||Brown||Blue||White||Peach||White||Blue||Tan||
+| Rabbit food |13|28|12|10|22|28|17|27|28|19|
 
  Rab -20 food 
-| Rabbit name |Grey||Blue||Tan||BlackWhite||Peach||Blue||Tan||White||Ginger||Tan||
-| Rabbit food |0|2|0|0|5|9|3|0|0|5|
+| Rabbit name |Blue||Tan||White||Brown||Blue||White||Peach||White||Blue||Tan||
+| Rabbit food |0|8|0|0|2|8|0|7|8|0|
  add new reb
-| Rabbit name |Black||Ginger||Grey||Blue||Tan||BlackWhite||Peach||Blue||Tan||White||Ginger||Tan||
-| Rabbit food |0|0|0|2|0|0|5|9|3|0|0|5| 
+| Rabbit name |Tan||Ginger||Blue||Tan||White||Brown||Blue||White||Peach||White||Blue||Tan||
+| Rabbit food |0|0|0|8|0|0|2|8|0|7|8|0| 
  
  Night 23. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
  
  
- Day 24. Food in forest = 201;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   12  13  10  13  12  14  13  14  12  14  13  15  11  11  11  13 
+ Day 24. Food in forest = 201;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   13  14  15  11  10  13  15  12  13  14  10  12  11  14  14  10 
 
-| Rabbit name |Black||Ginger||Grey||Blue||Tan||BlackWhite||Peach||Blue||Tan||White||Ginger||Tan||
-| Rabbit food |10|12|13|14|26|14|17|23|31|24|25|16|
- Day 24 xod 1: Alena - 23, Kostik - 0, 
- 	Aditional move of tiger Kostik; Food before move = 0. Alena - 23, Kostik - 12, 
+| Rabbit name |Tan||Ginger||Blue||Tan||White||Brown||Blue||White||Peach||White||Blue||Tan||
+| Rabbit food |10|29|13|19|10|29|15|20|13|32|20|24|
+ Day 24 xod 1: Alena - 15, Kostik - 0, Alena - 15, Kostik - 24, 
  Rab before go
-| Rabbit name |Black||Grey||Blue||Tan||BlackWhite||Peach||Tan||White||Ginger||Tan||
-| Rabbit food |10|13|14|26|14|17|31|24|25|16|
+| Rabbit name |Tan||Ginger||Blue||Tan||White||Brown||White||Peach||White||Blue||
+| Rabbit food |10|29|13|19|10|29|20|13|32|20|
  Rab died with 0 food
-| Rabbit name |Black||Grey||Blue||Tan||BlackWhite||Peach||Tan||White||Ginger||Tan||
-| Rabbit food |10|13|14|26|14|17|31|24|25|16|
+| Rabbit name |Tan||Ginger||Blue||Tan||White||Brown||White||Peach||White||Blue||
+| Rabbit food |10|29|13|19|10|29|20|13|32|20|
 
  Rab -20 food 
-| Rabbit name |Black||Grey||Blue||Tan||BlackWhite||Peach||Tan||White||Ginger||Tan||
-| Rabbit food |0|0|0|6|0|0|11|4|5|0|
+| Rabbit name |Tan||Ginger||Blue||Tan||White||Brown||White||Peach||White||Blue||
+| Rabbit food |0|9|0|0|0|9|0|0|12|0|
  add new reb
-| Rabbit name |Peach||White||Black||Grey||Blue||Tan||BlackWhite||Peach||Tan||White||Ginger||Tan||
-| Rabbit food |0|0|0|0|0|6|0|0|11|4|5|0| 
+| Rabbit name |Black||Tan||Ginger||Blue||Tan||White||Brown||White||Peach||White||Blue||
+| Rabbit food |0|0|9|0|0|0|9|0|0|12|0| 
  
  Night 24. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
  
  
- Day 25. Food in forest = 188;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   11  10  14  11  11  12  12  11  11  13  14  10  11  15  10  12 
+ Day 25. Food in forest = 204;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   15  15  13  11  11  15  10  10  14  12  12  12  14  13  15  12 
 
-| Rabbit name |Peach||White||Black||Grey||Blue||Tan||BlackWhite||Peach||Tan||White||Ginger||Tan||
-| Rabbit food |11|22|28|11|12|17|10|25|25|27|15|11|
- Day 25 xod 1: Alena - 11, Kostik - 0, Alena - 11, Kostik - 27, 
+| Rabbit name |Black||Tan||Ginger||Blue||Tan||White||Brown||White||Peach||White||Blue||
+| Rabbit food |11|15|21|27|12|39|35|14|10|27|23|
+ Day 25 xod 1: Alena - 10, Kostik - 0, Alena - 10, Kostik - 14, 
  Rab before go
-| Rabbit name |Peach||White||Black||Grey||Blue||Tan||BlackWhite||Peach||Tan||Ginger||
-| Rabbit food |11|22|28|11|12|17|10|25|25|15|
+| Rabbit name |Black||Tan||Ginger||Blue||Tan||White||Brown||White||Blue||
+| Rabbit food |11|15|21|27|12|39|35|27|23|
  Rab died with 0 food
-| Rabbit name |Peach||White||Black||Grey||Blue||Tan||BlackWhite||Peach||Tan||Ginger||
-| Rabbit food |11|22|28|11|12|17|10|25|25|15|
+| Rabbit name |Black||Tan||Ginger||Blue||Tan||White||Brown||White||Blue||
+| Rabbit food |11|15|21|27|12|39|35|27|23|
 
  Rab -20 food 
-| Rabbit name |Peach||White||Black||Grey||Blue||Tan||BlackWhite||Peach||Tan||Ginger||
-| Rabbit food |0|2|8|0|0|0|0|5|5|0|
+| Rabbit name |Black||Tan||Ginger||Blue||Tan||White||Brown||White||Blue||
+| Rabbit food |0|0|1|7|0|19|15|7|3|
  add new reb
-| Rabbit name |Tan||Ginger||Peach||White||Black||Grey||Blue||Tan||BlackWhite||Peach||Tan||Ginger||
-| Rabbit food |0|0|0|2|8|0|0|0|0|5|5|0| 
+| Rabbit name |Blue||BlackWhite||Peach||Black||Tan||Ginger||Blue||Tan||White||Brown||White||Blue||
+| Rabbit food |0|0|0|0|0|1|7|0|19|15|7|3| 
  
  Night 25. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
  
  
- Day 26. Food in forest = 211;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   14  11  12  14  13  15  15  15  15  10  14  15  14  11  12  11 
+ Day 26. Food in forest = 201;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   15  11  14  14  10  10  11  15  14  13  11  13  14  10  14  12 
 
-| Rabbit name |Tan||Ginger||Peach||White||Black||Grey||Blue||Tan||BlackWhite||Peach||Tan||Ginger||
-| Rabbit food |12|26|15|27|20|14|15|15|14|30|32|11|
- Day 26 xod 1: 
- 	Aditional move of tiger Alena; Food before move = 0. 
- 	Aditional move of tiger Kostik; Food before move = 0. 
+| Rabbit name |Blue||BlackWhite||Peach||Black||Tan||Ginger||Blue||Tan||White||Brown||White||Blue||
+| Rabbit food |15|10|14|14|21|14|18|27|33|29|31|27|
+ Day 26 xod 1: Alena - 0, Kostik - 27, 
+ 	Aditional move of tiger Alena; Food before move = 0. Alena - 29, Kostik - 27, 
  Rab before go
-| Rabbit name |Tan||Peach||White||Black||Grey||Tan||BlackWhite||Peach||Tan||Ginger||
-| Rabbit food |12|15|27|20|14|15|14|30|32|11|
+| Rabbit name |Blue||BlackWhite||Peach||Black||Tan||Ginger||Blue||Tan||White||White||
+| Rabbit food |15|10|14|14|21|14|18|27|33|31|
  Rab died with 0 food
-| Rabbit name |Tan||Peach||White||Black||Grey||Tan||BlackWhite||Peach||Tan||Ginger||
-| Rabbit food |12|15|27|20|14|15|14|30|32|11|
+| Rabbit name |Blue||BlackWhite||Peach||Black||Tan||Ginger||Blue||Tan||White||White||
+| Rabbit food |15|10|14|14|21|14|18|27|33|31|
 
  Rab -20 food 
-| Rabbit name |Tan||Peach||White||Black||Grey||Tan||BlackWhite||Peach||Tan||Ginger||
-| Rabbit food |0|0|7|0|0|0|0|10|12|0|
+| Rabbit name |Blue||BlackWhite||Peach||Black||Tan||Ginger||Blue||Tan||White||White||
+| Rabbit food |0|0|0|0|1|0|0|7|13|11|
  add new reb
-| Rabbit name |Blue||Tan||Peach||White||Black||Grey||Tan||BlackWhite||Peach||Tan||Ginger||
-| Rabbit food |0|0|0|7|0|0|0|0|10|12|0| 
+| Rabbit name |White||Tan||Blue||BlackWhite||Peach||Black||Tan||Ginger||Blue||Tan||White||White||
+| Rabbit food |0|0|0|0|0|0|1|0|0|7|13|11| 
  
  Night 26. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
  
  
- Day 27. Food in forest = 198;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   15  11  13  14  10  10  15  14  14  15  10  12  14  10  10  11 
+ Day 27. Food in forest = 191;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   13  10  10  10  11  13  14  12  11  10  12  15  13  14  12  11 
 
-| Rabbit name |Blue||Tan||Peach||White||Black||Grey||Tan||BlackWhite||Peach||Tan||Ginger||
-| Rabbit food |10|11|14|19|10|24|24|20|39|41|15|
- Day 27 xod 1: Alena - 10, Kostik - 0, Alena - 10, Kostik - 19, 
+| Rabbit name |White||Tan||Blue||BlackWhite||Peach||Black||Tan||Ginger||Blue||Tan||White||White||
+| Rabbit food |14|11|11|12|12|23|15|10|25|18|38|24|
+ Day 27 xod 1: Alena - 0, Kostik - 12, 
+ 	Aditional move of tiger Alena; Food before move = 0. 
  Rab before go
-| Rabbit name |Blue||Tan||Peach||Grey||Tan||BlackWhite||Peach||Tan||Ginger||
-| Rabbit food |10|11|14|24|24|20|39|41|15|
+| Rabbit name |White||Tan||Blue||Peach||Black||Tan||Ginger||Blue||Tan||White||White||
+| Rabbit food |14|11|11|12|23|15|10|25|18|38|24|
  Rab died with 0 food
-| Rabbit name |Blue||Tan||Peach||Grey||Tan||BlackWhite||Peach||Tan||Ginger||
-| Rabbit food |10|11|14|24|24|20|39|41|15|
+| Rabbit name |White||Tan||Blue||Peach||Black||Tan||Ginger||Blue||Tan||White||White||
+| Rabbit food |14|11|11|12|23|15|10|25|18|38|24|
 
  Rab -20 food 
-| Rabbit name |Blue||Tan||Peach||Grey||Tan||BlackWhite||Peach||Tan||Ginger||
-| Rabbit food |0|0|0|4|4|0|19|21|0|
+| Rabbit name |White||Tan||Blue||Peach||Black||Tan||Ginger||Blue||Tan||White||White||
+| Rabbit food |0|0|0|0|3|0|0|5|0|18|4|
  add new reb
-| Rabbit name |BlackWhite||Tan||Blue||Tan||Peach||Grey||Tan||BlackWhite||Peach||Tan||Ginger||
-| Rabbit food |0|0|0|0|0|4|4|0|19|21|0| 
+| Rabbit name |Black||Black||White||Tan||Blue||Peach||Black||Tan||Ginger||Blue||Tan||White||White||
+| Rabbit food |0|0|0|0|0|0|3|0|0|5|0|18|4| 
  
- Night 27. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+ Night 27. Food in forest = 10;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  10  0  0  0  0  0  0 
  
  
- Day 28. Food in forest = 200;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   10  13  13  11  13  12  15  11  10  12  14  14  14  11  15  12 
+ Day 28. Food in forest = 198;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   15  11  11  11  10  13  12  15  12  15  11  11  14  10  12  15 
 
-| Rabbit name |BlackWhite||Tan||Blue||Tan||Peach||Grey||Tan||BlackWhite||Peach||Tan||Ginger||
-| Rabbit food |12|26|13|11|14|16|44|12|40|35|25|
- Day 28 xod 1: Alena - 14, Kostik - 0, Alena - 14, Kostik - 35, 
+| Rabbit name |Black||Black||White||Tan||Blue||Peach||Black||Tan||Ginger||Blue||Tan||White||White||
+| Rabbit food |11|26|15|15|13|22|15|29|12|16|10|30|14|
+ Day 28 xod 1: Alena - 26, Kostik - 0, Alena - 26, Kostik - 12, 
  Rab before go
-| Rabbit name |BlackWhite||Tan||Blue||Tan||Grey||Tan||BlackWhite||Peach||Ginger||
-| Rabbit food |12|26|13|11|16|44|12|40|25|
+| Rabbit name |Black||White||Tan||Blue||Peach||Black||Tan||Blue||Tan||White||White||
+| Rabbit food |11|15|15|13|22|15|29|16|10|30|14|
  Rab died with 0 food
-| Rabbit name |BlackWhite||Tan||Blue||Tan||Grey||Tan||BlackWhite||Peach||Ginger||
-| Rabbit food |12|26|13|11|16|44|12|40|25|
+| Rabbit name |Black||White||Tan||Blue||Peach||Black||Tan||Blue||Tan||White||White||
+| Rabbit food |11|15|15|13|22|15|29|16|10|30|14|
 
  Rab -20 food 
-| Rabbit name |BlackWhite||Tan||Blue||Tan||Grey||Tan||BlackWhite||Peach||Ginger||
-| Rabbit food |0|6|0|0|0|24|0|20|5|
+| Rabbit name |Black||White||Tan||Blue||Peach||Black||Tan||Blue||Tan||White||White||
+| Rabbit food |0|0|0|0|2|0|9|0|0|10|0|
  add new reb
-| Rabbit name |Tan||BlackWhite||BlackWhite||Tan||Blue||Tan||Grey||Tan||BlackWhite||Peach||Ginger||
-| Rabbit food |0|0|0|6|0|0|0|24|0|20|5| 
+| Rabbit name |White||Black||White||Tan||Blue||Peach||Black||Tan||Blue||Tan||White||White||
+| Rabbit food |0|0|0|0|0|2|0|9|0|0|10|0| 
  
  Night 28. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
  
  
- Day 29. Food in forest = 189;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   10  11  10  14  10  10  13  10  14  13  12  15  10  11  12  14 
+ Day 29. Food in forest = 208;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   14  14  12  14  14  13  13  14  12  14  11  12  13  14  10  14 
 
-| Rabbit name |Tan||BlackWhite||BlackWhite||Tan||Blue||Tan||Grey||Tan||BlackWhite||Peach||Ginger||
-| Rabbit food |10|24|13|18|14|20|15|47|22|30|31|
- Day 29 xod 1: 
- 	Aditional move of tiger Alena; Food before move = 0. 
- 	Aditional move of tiger Kostik; Food before move = 0. Alena - 0, Kostik - 22, 
+| Rabbit name |White||Black||White||Tan||Blue||Peach||Black||Tan||Blue||Tan||White||White||
+| Rabbit food |14|11|24|22|13|16|27|22|14|14|38|14|
+ Day 29 xod 1: Alena - 0, Kostik - 38, 
+ 	Aditional move of tiger Alena; Food before move = 0. Alena - 24, Kostik - 38, 
  Rab before go
-| Rabbit name |Tan||BlackWhite||BlackWhite||Tan||Blue||Tan||Grey||Tan||Peach||Ginger||
-| Rabbit food |10|24|13|18|14|20|15|47|30|31|
+| Rabbit name |White||Black||Tan||Blue||Peach||Black||Tan||Blue||Tan||White||
+| Rabbit food |14|11|22|13|16|27|22|14|14|14|
  Rab died with 0 food
-| Rabbit name |Tan||BlackWhite||BlackWhite||Tan||Blue||Tan||Grey||Tan||Peach||Ginger||
-| Rabbit food |10|24|13|18|14|20|15|47|30|31|
+| Rabbit name |White||Black||Tan||Blue||Peach||Black||Tan||Blue||Tan||White||
+| Rabbit food |14|11|22|13|16|27|22|14|14|14|
 
  Rab -20 food 
-| Rabbit name |Tan||BlackWhite||BlackWhite||Tan||Blue||Tan||Grey||Tan||Peach||Ginger||
-| Rabbit food |0|4|0|0|0|0|0|27|10|11|
+| Rabbit name |White||Black||Tan||Blue||Peach||Black||Tan||Blue||Tan||White||
+| Rabbit food |0|0|2|0|0|7|2|0|0|0|
  add new reb
-| Rabbit name |Blue||Peach||Tan||BlackWhite||BlackWhite||Tan||Blue||Tan||Grey||Tan||Peach||Ginger||
-| Rabbit food |0|0|0|4|0|0|0|0|0|27|10|11| 
+| Rabbit name |Grey||White||Black||Tan||Blue||Peach||Black||Tan||Blue||Tan||White||
+| Rabbit food |0|0|0|2|0|0|7|2|0|0|0| 
  
  Night 29. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
  
  
- Day 30. Food in forest = 196;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   14  10  11  14  13  10  14  12  13  10  14  10  12  10  15  14 
+ Day 30. Food in forest = 215;  Food in tigers : Alena - 0, Kostik - 0, ************** Food generated for rabbits:   13  12  14  14  15  15  14  14  15  14  14  13  14  12  11  11 
 
-| Rabbit name |Blue||Peach||Tan||BlackWhite||BlackWhite||Tan||Blue||Tan||Grey||Tan||Peach||Ginger||
-| Rabbit food |22|10|41|18|14|10|14|27|11|37|20|24|
- Day 30 xod 1: Alena - 14, Kostik - 0, Alena - 14, Kostik - 37, 
+| Rabbit name |Grey||White||Black||Tan||Blue||Peach||Black||Tan||Blue||Tan||White||
+| Rabbit food |14|13|29|16|12|29|21|28|24|15|25|
+ Day 30 xod 1: Alena - 21, Kostik - 0, Alena - 21, Kostik - 24, 
  Rab before go
-| Rabbit name |Blue||Peach||Tan||BlackWhite||BlackWhite||Tan||Tan||Grey||Peach||Ginger||
-| Rabbit food |22|10|41|18|14|10|27|11|20|24|
+| Rabbit name |Grey||White||Black||Tan||Blue||Peach||Tan||Tan||White||
+| Rabbit food |14|13|29|16|12|29|28|15|25|
  Rab died with 0 food
-| Rabbit name |Blue||Peach||Tan||BlackWhite||BlackWhite||Tan||Tan||Grey||Peach||Ginger||
-| Rabbit food |22|10|41|18|14|10|27|11|20|24|
+| Rabbit name |Grey||White||Black||Tan||Blue||Peach||Tan||Tan||White||
+| Rabbit food |14|13|29|16|12|29|28|15|25|
 
  Rab -20 food 
-| Rabbit name |Blue||Peach||Tan||BlackWhite||BlackWhite||Tan||Tan||Grey||Peach||Ginger||
-| Rabbit food |2|0|21|0|0|0|7|0|0|4|
+| Rabbit name |Grey||White||Black||Tan||Blue||Peach||Tan||Tan||White||
+| Rabbit food |0|0|9|0|0|9|8|0|5|
  add new reb
-| Rabbit name |BlackWhite||Brown||Blue||Peach||Tan||BlackWhite||BlackWhite||Tan||Tan||Grey||Peach||Ginger||
-| Rabbit food |0|0|2|0|21|0|0|0|7|0|0|4| 
+| Rabbit name |Brown||Blue||Grey||White||Black||Tan||Blue||Peach||Tan||Tan||White||
+| Rabbit food |0|0|0|0|9|0|0|9|8|0|5| 
  
  Night 30. Food in forest = 0;  Food in tigers : Alena - 0, Kostik - 0, ************** Food of the end of the day:   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
