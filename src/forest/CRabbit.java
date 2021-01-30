@@ -2,24 +2,23 @@ package forest;
 
 import java.io.IOException;
 
-public class CRabbit extends CAnimal{
+public class CRabbit extends CAnimal {
     private int food;
     private CColor color;
     //private CCoord coord;
     private CFileWrite fileSDay;
 
 
-    public CRabbit(String name) throws IOException {
+    public CRabbit(String name) throws IOException { //(!) name -> color
         this.food = 0;
         CColor rabbitColor = CColor.Invalid;
         if (name == "rand") {
             this.color = rabbitColor.getRandomColor();
-        }
-        else {
+        } else {
             this.color = CColor.valueOf(name);
         }
 
-        this.fileSDay= new CFileWrite();
+        this.fileSDay = new CFileWrite();
 
     }
 
@@ -31,22 +30,31 @@ public class CRabbit extends CAnimal{
     public int rFood() {
         return this.food;
     }
-    public CColor rColor() {return this.color;}
 
-    public  void subtractionOfFood(){this.food-=20; if(this.food<0) this.food=0;}
+    public CColor rColor() {
+        return this.color;
+    }
+
+    public void subtractionOfFood() {
+        this.food -= 20; //(!)
+        if (this.food < 0)
+            this.food = 0;
+    }
 
     public void rInfo() {
         System.out.println("Rabbit color = " + this.color + ", food = " + this.food);
     }
+
     public void pColor() {
         System.out.printf("%12s", this.color);
     }
+
     public void pFood() {
         System.out.printf("%12d", this.food);
     }
 
     public void rFileWr(int Day) throws IOException {
-        fileSDay.WriteFile("E:\\Git\\Forest\\log\\dayLog.txt", String.valueOf((this.color))+" ");// сохраняем имя кролика
-        fileSDay.WriteFile("E:\\Git\\Forest\\log\\dayLog.txt",(Integer.toString(this.food))+"; ");// сохраняем еду кролика
+        fileSDay.WriteFile("E:\\Git\\Forest\\log\\dayLog.txt", String.valueOf((this.color)) + " ");// сохраняем имя кролика
+        fileSDay.WriteFile("E:\\Git\\Forest\\log\\dayLog.txt", (Integer.toString(this.food)) + "; ");// сохраняем еду кролика
     }
 }

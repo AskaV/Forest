@@ -36,14 +36,18 @@ public class Main {
         case 2 :
             {
                 CForest forest = new CForest();
+                //forest.startEmulation(17); // startEmulation(int endDay); -> emulation from 0 to endDay
+                //forest.saveToFile(path);
                 int j = forest.initialise();
                 break;
             }
         case 3 :
             {
                 CForest forest = new CForest();
+                //forest.loadFromFile(path);
+                //forest.startEmulation(); // startEmulation(); -> emulation from read day to 30
                 int i = forest.loadDayFromFile();
-
+                break;
 
 
    //             FileReader fr = new FileReader("E:\\Git/Forest\\log\\log4.txt");
